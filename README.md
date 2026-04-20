@@ -51,22 +51,25 @@ hay que desactivar el autocommit, que por default esta activado, para poder hace
 las ? de la select con los datos de los nuevos empleados y si algo falla se hace un rollback y si todo va bien se hace un commit.
 
 --EJERCICIO 11--
-Este ejercicio nos pide mostrar los empleado en orden descendente en cuanto a su salario, por lo que con las sentecia sql y un 
+Este ejercicio nos pide mostrar los empleado en orden descendente en cuanto a su salario, por lo que con las sentecia sql y un  
 order by salario desc, les tendremos. Despues les meteremos en las variables y con un bucle while imprimiremos todos. Si algo sale mal
 el catch manejara el excepcion.
 
---EJERCICIO 12--
-
-
 --EJERCICIO 13--
-
+Este ejercicio nos pide la creacion de dos tablas, una de ellas  ya existia por lo que habria que borrarla primero para evitar errores, la de empleado. U
+saremos sentencias sql de create table con los campos indicados y poniendo la primary key.
+Cuando se hayan creado se imprimira un mensaje indicandolo y si no el catch controlara la excepcion generada.
 
 --EJERCICIO 14--
-
+Este ejercicio pide rellenar de datos las tablas generadas en el anterior. Primero insertamos departamentos ya que los empleados de 
+despues deberan pertenecer a alguno, con las consultas de insert into y damos valores a las ? puestas. Si todo ha ido bien se imprimira el 
+mensaje confirmandolo, si no el catch manejara la excepcion.
 
 --EJERCICIO 15--
-
+Este ejrecicio nos pide sacar en pantalla el nombre del empleado con el nombre de su departamento, por lo que en la select donde sacamos los dos nombres 
+cruzamos las tablas departamento y empleado con el id. Y para sacar los resultados de la select en el print primero les metemos en variables, sacaremos todos gracias al bucle.
 
 --EJERCICIO 16--
-
+Este ejercicio nos pide el nombre de los empleado de x departamento, relleno la ? de la select con el id del departamento y creamos la variable nombre para poder sacar los nombre en el print. 
+Y si algo no funciona como deberia el catch controlara esa excepcion.
 
