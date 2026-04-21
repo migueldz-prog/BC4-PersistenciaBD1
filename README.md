@@ -56,8 +56,8 @@ order by salario desc, les tendremos. Despues les meteremos en las variables y c
 el catch manejara el excepcion.
 
 --EJERCICIO 13--
-Este ejercicio nos pide la creacion de dos tablas, una de ellas  ya existia por lo que habria que borrarla primero para evitar errores, la de empleado. U
-saremos sentencias sql de create table con los campos indicados y poniendo la primary key.
+Este ejercicio nos pide la creacion de dos tablas, una de ellas  ya existia por lo que habria que borrarla primero para evitar errores, la de empleado. 
+Usaremos sentencias sql de create table con los campos indicados y poniendo la primary key.
 Cuando se hayan creado se imprimira un mensaje indicandolo y si no el catch controlara la excepcion generada.
 
 --EJERCICIO 14--
